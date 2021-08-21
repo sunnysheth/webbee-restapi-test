@@ -19,6 +19,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::group(['prefix' => 'v1', 'namespace' => 'v1'], function () {
-    Route::get('all_events', 'EventController@getAllEvents');
-    Route::post('make_event_booking', 'EventBookingController@makeBooking');
+    Route::get('getAllEvents', 'EventController@getAllEvents');
+    Route::post('makeEventBooking', 'EventBookingController@makeBooking');
 });
