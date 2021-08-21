@@ -23,7 +23,7 @@ class EventFactory extends Factory
      */
     public function definition()
     {
-        $eventName = $this->faker->name();
+        $eventName = $this->faker->word();
         $eventSlug = Str::slug($eventName, '-');
         
         return [
