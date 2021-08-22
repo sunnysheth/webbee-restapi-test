@@ -22,7 +22,7 @@ class Event extends JsonResource
             'id'                                         => $this->id,
             'name'                                       => $this->name,
             'slug'                                       => $this->slug,
-            'can_be_booked_before_event_starts_in_mins'  => $this->can_be_booked_before_event_starts_in_mins,
+            'booking_closed_before_in_mins'              => $this->can_be_booked_before_event_starts_in_mins,
             'advance_booking_min_days'                   => $this->advance_booking_min_days,
             'max_amount_people'                          => $this->max_allowed_bookings,
             'start_date_time'                            => $this->start_date_time,
